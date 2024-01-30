@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Formulario de Inserción</title>
+    <link rel="stylesheet" href="../css/styles.css">
+</head>
+<body>
+    <form action="../php/procesar.php" method="POST">
+        <label for="NumeroCliente">Número de Cliente:</label>
+        <input type="text" name="NumeroCliente" required><br>
+        
+        <label for="Saldo">Saldo:</label>
+        <input type="text" name="Saldo" required><br>
+        
+        <label for="LimiteCredito">Límite de Crédito:</label>
+        <input type="text" name="LimiteCredito" required><br>
+        
+        <label for="Descuento">Descuento:</label>
+        <input type="text" name="Descuento" required><br>
+        
+        <label for="Descripcion">Descripción del Artículo:</label>
+        <input type="text" name="Descripcion" required><br>
+        
+        <label for="NumeroPedido">Número de Pedido:</label>
+        <input type="text" name="NumeroPedido" required><br>
+        
+        <label for="FechaPedido">Fecha del Pedido:</label>
+        <input type="text" name="FechaPedido" required><br>
+        
+        <label for="DireccionEnvio">Dirección de Envío:</label>
+        <input type="text" name="DireccionEnvio" required><br>
+        
+        <label for="NumeroArticulo">Número de Artículo:</label>
+        <input type="text" name="NumeroArticulo" required><br>
+        
+        <label for="Cantidad">Cantidad:</label>
+        <input type="text" name="Cantidad" required><br>
+        
+        <label for="NumeroFabrica">Número de Fábrica:</label>
+        <input type="text" name="NumeroFabrica" required><br>
+        
+        <label for="TelefonoContacto">Teléfono de Contacto:</label>
+        <input type="text" name="TelefonoContacto" required><br>
+        
+        <label for="NumeroFabricaAlternativa">Número de Fábrica Alternativa:</label>
+        <input type="text" name="NumeroFabricaAlternativa" required><br>
+        
+        <input type="submit" value="Enviar">
+    </form>
+
+    <script src="../js/validar.js"></script>
+</body>
+</html>
